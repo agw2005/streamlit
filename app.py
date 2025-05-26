@@ -8,7 +8,7 @@ yang berisi library python yang dipakai agar aplikasi bisa berjalan.
 import streamlit as st
 # # import cv2
 # import numpy as np
-# from PIL import Image
+from PIL import Image
 from image_utils import *
 
 st.set_page_config("Aplikasi Pengolahan Citra", layout="wide")
